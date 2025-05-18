@@ -66,7 +66,7 @@ const Grid = () => {
         setBlockData(newBlockData);
     };
 
-    const random = randomNum(15);
+    const random = randomNum(8);
     if (count != 1 && random == 1) {
         const randomJump = randomNum(5) - 1;
         new Audio(audio).play();
